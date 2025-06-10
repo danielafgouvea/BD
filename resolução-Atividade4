@@ -1,0 +1,40 @@
+CREATE TABLE Usuario (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    telefone VARCHAR(15)
+);
+
+CREATE TABLE Livro (
+    id INT PRIMARY KEY,
+    titulo VARCHAR(100),
+    autor VARCHAR(100),
+    editora VARCHAR(100),
+    ano INT,
+    isbn VARCHAR(20)
+);
+
+CREATE TABLE Emprestimo (
+    id INT PRIMARY KEY,
+    id_usuario INT,
+    id_livro INT,
+    data_emprestimo DATE,
+    data_devolucao DATE,
+    FOREIGN KEY (id_usuario) REFERENCES Usuario(id),
+    FOREIGN KEY (id_livro) REFERENCES Livro(id)
+);
+INSERT INTO Usuario VALUES (1, 'João Silva', 'joao@gmail.com', '11999999999');
+INSERT INTO Livro VALUES (1, '1984', 'George Orwell', 'Companhia das Letras', 1949, '1234567890');
+INSERT INTO Emprestimo VALUES (1, 1, 1, '2025-06-01', '2025-06-15');
+SELECT COUNT(*) FROM Emprestimo
+WHERE data_emprestimo BETWEEN '2025-06-01' AND '2025-06-30';
+SELECT Livro.titulo, COUNT(*) AS total
+FROM Emprestimo
+JOIN Livro ON Emprestimo.id_livro = Livro.id
+GROUP BY Livro.titulo
+ORDER BY total DESC;
+SELECT Usuario.nome, COUNT(*) AS total
+FROM Emprestimo
+JOIN Usuario ON Emprestimo.id_usuario = Usuario.id
+GROUP BY Usuario.nome
+ORDER BY total DESC
