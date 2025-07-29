@@ -1,0 +1,12 @@
+1) No SQL, os comandos são divididos em categorias, como Data Definition
+Language (DDL), Data Manipulation Language (DML), Data Query Language (DQL),
+Data Control Language (DCL) e Transaction Control Language (TCL). Cada categoria
+possui funções específicas que são utilizadas para atender diferentes necessidades
+na gestão de bancos de dados. Por exemplo, criar e modificar tabelas, manipular
+dados armazenados, recuperar informações ou controlar permissões de acesso.
+Qual comando SQL abaixo pertence à categoria Data Control Language (DCL)?
+
+2) Uma montadora de automóveis mantém um banco de dados para gerenciar o status dos veículos em sua linha de produção. O gerente de operações determinou
+que todos os veículos que concluíram as etapas de montagem e pintura devem ter seu status atualizado para “Pronto para inspeção”. Antes de executar essa
+atualização, o administrador do banco de dados revisou boas práticas para evitar possíveis erros que pudessem comprometer a integridade dos dados.
+Considerando boas práticas no uso do comando UPDATE, qual deve ser a principal precaução do administrador antes de executar a atualização?
