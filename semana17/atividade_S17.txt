@@ -1,0 +1,12 @@
+Você foi contratado como analista de banco de dados em uma empresa
+de e-commerce que está passando por uma fase de crescimento
+acelerado.
+O departamento de marketing solicitou que você gere um relatório diário
+com informações detalhadas sobre clientes que fizeram compras
+recentemente, segmentando-os por cidade e ordenando-os por valor de
+compra.
+A equipe de marketing precisa das seguintes informações:
+• Nome:
+• E-mail:
+• Cidade:
+• Valor total da compra:
