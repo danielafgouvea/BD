@@ -1,0 +1,13 @@
+MIGRAÇÃO DE BANCO DE DADOS RELACIONAL PARA A NUVEM: 
+PLANEJAMENTO E IMPLEMENTAÇÃO
+
+A empresa de e-commerce LojaOnline tem experimentado um crescimento significativo nos últimos meses. O volume de transações, produtos e usuários aumentou consideravelmente, e a infraestrutura de TI, que antes funcionava bem com servidores locais, está se tornando insuficiente. As consultas aos dados estão ficando lentas, e os servidores locais começam a apresentar limitações em termos de escalabilidade e disponibilidade. Além disso, a equipe de TI não consegue dedicar tempo suficiente para gerenciar a infraestrutura física, realizar backups regulares e manter o sistema de banco de dados atualizado. 
+
+A empresa decidiu, então, migrar seu sistema de banco de dados para a nuvem, utilizando um SGBD relacional gerenciado em uma plataforma de nuvem para garantir melhor performance, alta disponibilidade e escalabilidade, sem precisar se preocupar com a administração da infraestrutura. 
+
+
+1-Como a migração para um banco de dados em nuvem pode impactar a escalabilidade e a disponibilidade do sistema da LojaOnline durante períodos de alta demanda, como promoções e datas comemorativas? 
+
+2-Quais são os principais desafios e benefícios ao migrar de um banco de dados local para a nuvem, e como você incentivaria a equipe a se manter motivada e comprometida durante esse processo? 
+
+3-Considerando os riscos de exposição dos dados dos clientes durante a migração, como você asseguraria a implementação de medidas de segurança e comunicaria a importância desses processos para a equipe? 
