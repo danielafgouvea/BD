@@ -1,0 +1,20 @@
+
+1. O que é um banco de dados relacional?
+
+2. O que caracteriza um banco de dados não relacional (NoSQL)?
+
+3. Qual é a principal diferença entre bancos relacionais e não relacionais?
+
+4. Quando é mais indicado usar um banco de dados relacional?
+
+5. Quando é mais indicado usar um banco de dados não relacional?
+
+6. O que é o SQL e qual sua importância nos bancos de dados relacionais?
+
+7. Cite uma vantagem e uma desvantagem dos bancos relacionais.
+
+8. Cite uma vantagem e uma desvantagem dos bancos não relacionais.
+
+9. Qual tipo de banco é mais indicado para aplicações que exigem relações complexas entre tabelas?
+
+10. Explique como a escolha entre um banco de dados relacional e não relacional pode impactar o desempenho e a escalabilidade de um sistema.
