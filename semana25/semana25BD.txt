@@ -1,0 +1,9 @@
+Semana 25 - Arquitetura e Escalabilidade de Bancos NoSQL
+
+Atividade de registro
+
+Fazer um quadro comparativo sobre arquitetura e escalabilidade:
+
+Parte 1: Quadro sobre arquitetura de Bancos NoSQL.
+
+Parte 2: Quadro sobre escalabilidade de Bancos NoSQL.
