@@ -1,0 +1,55 @@
+
+Performance e Monitoramento: Otimização de Consultas em Bancos NoSQL (MongoDB e Cassandra)
+
+1. Conceito de Performance em Bancos NoSQL
+
+A **performance** de um banco de dados se refere à sua capacidade de responder rapidamente a consultas e manipular grandes volumes de dados. Em sistemas NoSQL, como **MongoDB** e **Cassandra**, o desempenho depende de como os dados estão distribuídos, indexados e consultados.
+
+Manter boa performance é essencial para:
+
+* Reduzir o tempo de resposta das aplicações;
+* Evitar sobrecarga nos servidores;
+* Melhorar a experiência do usuário.
+
+2. Monitoramento de Desempenho
+
+O **monitoramento** permite acompanhar o uso de recursos e identificar gargalos.
+Ferramentas e métricas comuns incluem:
+
+- Latência**: tempo de resposta das consultas.
+- Throughput**: número de operações por segundo.
+- Uso de CPU, memória e disco**.
+- Monitoramento em tempo real** com ferramentas como **MongoDB Atlas**, **Prometheus**, **Grafana**, ou **Cassandra Metrics**.
+
+Esses dados ajudam os administradores a detectar consultas lentas, problemas de replicação e falhas de nós.
+
+3. Otimização de Consultas no MongoDB
+
+O **MongoDB** armazena dados em formato **JSON/BSON** e permite consultas flexíveis.
+Para otimizar:
+
+* **Use índices**: crie índices em campos usados com frequência em filtros ou ordenações.
+* **Evite consultas que retornem muitos dados desnecessários** (use `projection` para limitar campos).
+* **Prefira filtros seletivos**: evite varrer toda a coleção.
+* **Analise consultas com `explain()`**, que mostra como o MongoDB executa uma consulta.
+* **Shard (fragmentar) coleções grandes**, distribuindo os dados entre diferentes servidores.
+
+4. Otimização de Consultas no Cassandra
+
+O **Cassandra** é baseado em um modelo de **colunas distribuídas**, ideal para alta escalabilidade e disponibilidade.
+Boas práticas incluem:
+
+* **Escolher uma boa chave de partição**: influencia diretamente a distribuição e a velocidade das consultas.
+* **Evitar consultas que exigem varredura completa da tabela** (full scan).
+* **Usar índices secundários com cautela**, pois podem reduzir o desempenho.
+* **Desenhar o modelo de dados de acordo com as consultas**, não o contrário (modelagem orientada à query).
+* **Monitorar com ferramentas como `nodetool`** e **Cassandra Query Language (CQL) tracing** para identificar gargalos.
+
+5. Boas Práticas Gerais
+
+* Realizar **testes de carga** para medir o desempenho.
+* Implementar **cache** para resultados de consultas frequentes.
+* Fazer **balanceamento de carga** entre nós.
+* Atualizar regularmente as versões do banco e drivers.
+* Utilizar **replicação e particionamento** para maior eficiência e disponibilidade.
+

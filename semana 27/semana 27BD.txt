@@ -1,0 +1,14 @@
+
+
+Responda as perguntas e suba no AVA Semana 27 BD
+
+
+1- O que significa "performance" em um banco de dados NoSQL?
+
+2- Quais são duas ferramentas que podem ser usadas para monitorar o MongoDB?
+
+3- Por que é importante usar índices em consultas do MongoDB?
+
+4- No Cassandra, o que é uma chave de partição e por que ela é importante?
+
+5- Cite duas boas práticas gerais para manter um bom desempenho em bancos NoSQL.
