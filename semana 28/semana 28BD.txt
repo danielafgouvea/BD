@@ -1,0 +1,11 @@
+Responda e suba as respostas na semana 28 de Banco de Dados.  
+
+1.  Qual tipo de aplicação se beneficiaria mais do uso do Redis em vez de um banco relacional tradicional? 
+
+2. Por que o MongoDB é considerado mais flexível do que o Cassandra em relação ao schema dos dados?
+
+3. Em que tipo de cenário o Neo4j supera outros bancos de dados NoSQL? 
+
+4. Como o Cassandra garante alta disponibilidade e tolerância a falhas em um ambiente distribuído? 
+
+5. É possível usar Redis e MongoDB juntos em uma mesma aplicação? Se sim, qual seria a vantagem dessa combinação?
