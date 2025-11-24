@@ -1,0 +1,82 @@
+PARTE 1 — Texto 
+Leia com atenção o resumo abaixo antes de responder às questões.
+1. Bancos de Dados NoSQL
+São bancos que não usam o modelo tradicional de tabelas (relacional).
+ São ideais para grandes volumes de dados, alta velocidade e sistemas que precisam crescer de forma distribuída.
+
+2. Cassandra
+O Cassandra é um banco de dados NoSQL orientado a colunas.
+ Ele é projetado para trabalhar com vários servidores ao mesmo tempo, formando um cluster.
+Principais características:
+Alta disponibilidade
+
+
+Escalabilidade horizontal
+
+
+Distribuição automática dos dados entre os nós
+
+
+Tolerância a falhas
+
+
+
+3. Replicação
+A replicação copia os dados entre diferentes nós para evitar perda de informações.
+ Se um nó falha, outro assume, garantindo que o sistema continue funcionando.
+
+4. Adição de novos nós
+Quando um novo nó é acrescentado no Cassandra:
+Ele entra vazio
+
+
+O cluster redistribui os dados de forma automática
+
+
+O sistema continua funcionando durante o processo
+
+
+Isso permite que o banco cresça sem parar.
+
+PARTE 2 — Questões
+1 — Conceito
+Explique com suas próprias palavras o que é um banco de dados NoSQL e cite uma situação real em que esse modelo seria mais recomendado do que um banco relacional.
+
+2 — Replicação
+Qual é o principal objetivo da replicação no Cassandra?
+ Por que ela é tão importante para sistemas grandes?
+
+3 — Funcionamento dos Nós
+O que acontece quando um novo nó é adicionado ao Cassandra?
+ Explique o processo de forma simples e clara.
+
+4 — Escalabilidade
+Por que dizemos que o Cassandra tem escalabilidade horizontal?
+ Explique esse conceito com um exemplo do dia a dia (não precisa ser tecnológico).
+
+PARTE 3 — Atividade Prática (Criativa)
+Imagine que você é o administrador de um sistema que armazena:
+notas dos alunos
+
+
+acesso ao portal escolar
+
+
+mensagens enviadas entre estudantes e professores
+
+
+A escola precisa evitar perda de dados e suportar muitos acessos.
+Responda:
+Você usaria um banco relacional, NoSQL ou uma combinação dos dois? Justifique.
+
+
+Como a replicação ajudaria caso um servidor da escola parasse de funcionar?
+
+
+Se o número de acessos dobrasse, como o Cassandra lidaria com esse crescimento?
+
+
+
+PARTE 4 — Desafio Extra 
+Crie uma metáfora ou desenho que explique o funcionamento de um cluster com vários nós.
+ Exemplo: comparar nós com funcionários de um mercado dividindo tarefas.
